@@ -19,9 +19,9 @@ jobs:
         debug: true
         script: |
           cd /tmp
-          git clone http://github.com/goddlts/vue-deploy-demo.git
-          cd /tmp/vue-deploy-demo
-          chmod +x ./deploy.sh
-          ./deploy.sh
+        #  git clone https://github.com/mashedpotato2018/deploy.git
+        #  cd /tmp/deploy
+        #  chmod +x ./deploy.sh
+        #  ./deploy.sh
           
 # https://github.com/appleboy/ssh-action
