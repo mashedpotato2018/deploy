@@ -14,14 +14,14 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         debug: true
         script: |
           cd /tmp
-        #  git clone https://github.com/mashedpotato2018/deploy.git
-        #  cd /tmp/deploy
-        #  chmod +x ./deploy.sh
-        #  ./deploy.sh
+          git clone https://github.com/mashedpotato2018/deploy.git
+          cd /tmp/deploy
+          chmod +x ./deploy.sh
+          ./deploy.sh
           
 # https://github.com/appleboy/ssh-action
